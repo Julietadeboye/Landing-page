@@ -1,0 +1,331 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    display:grid;
+    grid-template-columns: 55% 30% 15%;
+    grid-column-gap: 40px;
+    background-color: grey;
+    font-family: sans-serif, helvatica, ariel;
+    padding: 120px;
+}
+
+.top {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    align-content: right;
+    background-color:lightgray; 
+    padding: 10px;
+    margin: 0;
+    justify-self: right;
+}
+
+.top li {
+    margin-left: 65px;
+    margin-right: 35px;
+}
+
+.head {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    padding-top: 140px;
+    padding-left: inherit;
+    color: rgb(63, 62, 62);
+    margin-bottom: 15px;
+    width: 70%;
+}
+
+.grey {
+    background-color: rgb(245, 244, 244);
+   
+}
+
+.desktop {
+    background-color: white;  
+  
+}
+
+p {
+    margin: auto; 
+    width: 70%;
+    text-align: center;
+}
+
+.about {
+    height:20px; 
+    width:150px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+    background-color: grey;
+    color: white;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+.about3 {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    height:20px; 
+    width:150px; 
+    margin:auto;
+    width:50%;
+    background-color: grey;
+    color: white;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+.pagination3 {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.pagination3 ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.pagination3 a{
+    display: inline-block;
+    padding: 10px 8px;
+    color: #;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    padding: 0;
+    margin: auto 1px;
+    text-align: center;
+    position: relative;
+    background-color: lightgray;
+
+}
+
+.pagination3 .is-active{
+background-color: rgb(151, 151, 151);
+}
+
+.pagination{
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.pagination ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.pagination a{
+    display: inline-block;
+    padding: 10px 8px;
+    color: #;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    padding: 0;
+    margin: auto 1px;
+    text-align: center;
+    position: relative;
+    background-color: lightgray;
+
+}
+
+.pagination .is-active{
+background-color: rgb(151, 151, 151);
+}
+
+.projects {
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+    list-style-type: none;
+    column-gap: 30px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    /* come back to this*/
+    grid-template-columns: repeat(auto-fit, 150px);
+}
+
+.projects li {
+    padding: 1
+    margin-left: 20px;
+    display: grid;
+    justify-items: center;
+    align-content
+}
+
+.hole {
+    display: flex;
+    background-color: rgb(179, 176, 176);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    flex-wrap: wrap;
+    
+}
+
+.description {
+    display: grid;
+    background-color: rgb(245, 244, 244);;
+    color: rgb(245, 244, 244);;
+    grid-gap: 10px 10px;
+    margin-top: 10px;     
+}
+
+.social {
+    background-color: rgb(245, 244, 244);
+    display:block;
+    margin:0 auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+     
+    
+}
+
+h3 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.media {
+    display: inline-grid;
+    margin:auto;
+    width: 15%;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 50px;
+    grid-template-rows: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgb(245, 244, 244); /* lightgrey */
+    color: grey;
+    padding: 5px 2px;
+    text-align: center;
+    text-decoration: none; 
+    border-color: lightgrey;
+    border-width: 3px;
+}
+
+.btn {
+    margin-left: 35%; 
+}
+
+.medium {
+    display: grid;
+    margin:auto;
+    width: 75%;
+    justify-content: center;
+    align-content: center;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: rgb(245, 244, 244); /* lightgrey */
+    color: grey;
+    padding: 5px 2px;
+    text-decoration: none; 
+    border-color: lightgrey;
+    border-width: 3px;
+}
+
+.hole2 {
+    display: flex;
+    background-color: rgb(179, 176, 176);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin: auto;
+    
+}
+
+.courses2{
+    list-style-type: none;
+    column-gap: 30px;
+    display: grid;
+    justify-self: : center;
+    justify-items: center;
+    grid-template-columns: 100px 100px 100px;
+    /* come back to this*/
+    grid-template-columns: repeat(auto-fit, 150px);
+    margin:auto;
+    width: 90%;
+}
+
+.courses2 li {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 95%;
+    margin-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    
+.courses{
+    list-style-type: none;
+    column-gap: 30px;
+    display: grid;
+    justify-self: : center;
+    justify-items: center;
+    grid-template-columns: 100px 100px 100px;
+    /* come back to this*/
+    grid-template-columns: repeat(auto-fit, 150px);
+    margin:auto;
+    width: 90%;
+}
+
+
+.courses li {
+    padding: 20px;
+    display: inline-grid;
+    justify-content: center;
+    align-self: center;
+    width: 75%;
+    margin: auto;
+    margin-left: 200px;
+    
+}
+
+.button {
+    display: grid;
+    margin:auto;
+    width: 20%;
+    justify-content: center;
+    align-content: center;
+    grid-template-rows: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    background-color: rgb(245, 244, 244); /* lightgrey */
+    color: grey;
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration: none; 
+    border-color: lightgrey;
+    border-width: 3px;
+}
+
+.down {
+    background-color: rgb(245, 244, 244);
+    padding: 20px;
+} 
